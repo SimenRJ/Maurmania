@@ -1,48 +1,50 @@
 # Maurspill i Python
 
-Dette prosjektet er en implementering av et maurspill i Python, opprettet som et skoleprosjekt for faget IT2 (Informasjonsteknologi 2). Spillet består av to deler: en hovedmeny og to spillscenarier. I den første delen av spillet kan brukeren observere en simulering av maur som samler mat og bringer den tilbake til maurtuen sin. Den andre delen av spillet involverer å navigere gjennom et område uten å bli truffet av maurene.
+Dette prosjektet er en implementering av et maurspill i Python, opprettet som et skoleprosjekt for faget IT2 (Informasjonsteknologi 2). Spillet består av to mindre spill: et simuleringsspill og et unngåspill. I det første spillet kan brukeren observere en simulering av maur som samler mat og bringer den tilbake til maurtuen sin. Den andre delen av spillet involverer å navigere gjennom et område og komme til mål uten å bli truffet av maur.
 
 ## Hovedmeny
 
-![Hovedmeny](path/to/hovedmeny_screenshot.png)
+![Hovedmeny](Filer/hovedmeny_skjermbilde.png)
 
-I hovedmenyen kan brukeren velge mellom de to tilgjengelige spillmodusene: observasjonsmodus og utfordringsmodus. Hovedmenyen gir også tilgang til ytterligere informasjon om spillet og instruksjoner om hvordan man spiller.
+I hovedmenyen kan brukeren velge mellom de to tilgjengelige spill: simuleringspillet og unngåspillet. Hovedmenyen gir også tilgang til ytterligere informasjon om spillet og instruksjoner om hvordan man spiller.
 
-## Observasjonsmodus (Simulering av maursamfunn)
+## Simuleringsspillet
 
-I denne delen av spillet kan brukeren observere en simulering av et maursamfunn. Maurerne vil bevege seg rundt på skjermen og samle mat, og deretter ta den med tilbake til maurtuen. Dette gir en visuell representasjon av maursamfunnets atferd og hierarki.
+I denne delen av spillet kan brukeren velge en vandringsgrad mellom 0.5 og 2.5.
+Denne vandringsgaden sier noe om hvor mye maurene svinger frem og tilbake når de vandrer.
+Simuleringen går ut på at maurerne vil bevege seg rundt på skjermen og gå mot maten hvis de oppdager den, og deretter ta den med tilbake til maurtuen.
+Dette gir en visuell representasjon av logikk og matte
 
-## Utfordringsmodus (Unngå maurene)
+## Unngåspillet (Unngå maurene spillet)
 
-I utfordringsmodusen må spilleren navigere gjennom et område mens de prøver å unngå å bli truffet av maurene. Målet er å nå sluttpunktet uten å kollidere med noen av maurene. Dette utfordrer spillerens reaksjonsevne og strategiske tenkning.
+I unngåspillet må spilleren navigere fra nederst i venstre hjørne til mål som ligger øverst til høyre uten å bli truffet av maurene.
+Målet er å nå sluttpunktet uten å kollidere med noen av maurene. Dette utfordrer spillerens reaksjonsevne og strategiske tenkning.
+Spillet blir vanskeligere og vanskeligere for hver runde.
 
 ## Skjermbilder
 
-### Observasjonsmodus
+### Simuleringsspillet
 
-![Observasjonsmodus](path/to/observasjonsmodus_screenshot.png)
+![Simuleringsspillet](Filer/simulering_skjermbilde.png)
 
-### Utfordringsmodus
+### Unngåspillet
 
-![Utfordringsmodus](path/to/utfordringsmodus_screenshot.png)
+![Unngåspillet](Filer/unnga_skjermbilde.png)
 
 ## Installasjon
 
 1. Last ned eller klon dette git-repositoriet.
 2. Åpne terminalen og naviger til mappen der prosjektet er lagret.
-3. Kjør `python main.py` for å starte spillet.
+3. Kjør `python hovedmeny.py` for å starte spillet. (Alternativt: Kjør maurmania.bat)
 
 ## Avhengigheter
 
-Dette spillet krever Python 3.x for å kjøre, samt noen eksterne biblioteker som kan installeres via pip. Se `requirements.txt` for en liste over avhengigheter.
+Dette spillet krever Python 3.x for å kjøre, samt noen eksterne biblioteker som kan installeres via pip.
+disse inkluderer pygame og random.
 
 ## Bruk
 
 Etter at spillet har startet, følg instruksjonene på skjermen for å navigere gjennom menyene og spille de ulike modusene.
-
-## Bidrag
-
-Dette prosjektet er åpent for bidrag. Føl deg fri til å opprette en pull-forespørsel med eventuelle forbedringer eller feilrettinger.
 
 ## Lisens
 
