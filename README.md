@@ -37,7 +37,7 @@ Spillet blir vanskeligere og vanskeligere for hver runde.
 2. Åpne terminalen og naviger til mappen der prosjektet er lagret.
 3. Kjør `python hovedmeny.py` for å starte spillet. (Alternativt: Kjør maurmania.bat)
 
-## Avhengigheter
+## Krav
 
 Dette spillet krever Python 3.x for å kjøre, samt noen eksterne biblioteker som kan installeres via pip.
 disse inkluderer pygame og random.
