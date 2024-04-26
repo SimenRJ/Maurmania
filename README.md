@@ -46,7 +46,3 @@ disse inkluderer pygame og random.
 
 Etter at spillet har startet, følg instruksjonene på skjermen for å navigere gjennom menyene og spille de ulike modusene.
 
-## Lisens
-
-Dette prosjektet er lisensiert under [MIT Lisensen](LICENSE).
-
